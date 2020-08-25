@@ -1,0 +1,51 @@
+/*! -----------------------------------------------------------------
+[Master Stylesheet]
+
+Project:     Risotto
+Version:     1.0.9
+Primary use: Restaurant template
+
+------------------------------------------------------------------
+[General Styles]
+*/
+
+@import "utils/mixins";
+@import "utils/variables";
+
+@import "base/base";
+@import "base/typography";
+
+@import "components/bars";
+@import "components/forms";
+@import "components/tables";
+@import "components/buttons";
+@import "components/breadcrumb";
+@import "components/iconbox";
+@import "components/counters";
+@import "components/team";
+@import "components/tabs";
+@import "components/testimonials";
+@import "components/pagination";
+@import "components/featuresbox";
+@import "components/maps";
+@import "components/clients";
+@import "components/social-icons";
+@import "components/preloader";
+@import "components/date-time";
+
+@import "layout/header";
+@import "layout/modules";
+@import "layout/pages";
+@import "layout/blog";
+@import "layout/shop";
+@import "layout/widgets";
+@import "layout/gallery";
+@import "layout/footer";
+
+
+
+
+
+
+
+

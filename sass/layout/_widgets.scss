@@ -1,0 +1,81 @@
+/*------------------------------------------------------------------
+[Widgets]
+*/
+
+.widget {
+	margin: 0 0 50px;
+	padding: 0 45px;
+	@include hide_last_margin;
+
+	.widget-title {
+		margin: 0 0 20px;
+	}
+}
+
+/* --- [ Twitter Feed Widget ] --- */
+
+.twitter-feed ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.twitter-feed ul li:before {
+	position: relative;
+	top: 6px;
+	float: left;
+	display: inline-block;
+	content: "\f099";
+	font-family: 'FontAwesome';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 13px;
+}
+
+.twitter-feed .user,
+.twitter-feed .timePosted,
+.twitter-feed .interact {
+	display: none;
+}
+
+.twitter-feed p {
+	position: relative;
+	padding-left: 20px;
+}
+
+/* --- [ Links and Latest Posts Widgets ] --- */
+
+.widget-links ul,
+.widget-latest-posts ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	> li {
+		border-bottom: 1px solid rgba($clr-white, 0.05);
+		padding: 10px 0;
+
+		&:first-child {
+			padding-top: 0;
+		}
+
+		&:last-child {
+			border: 0;
+			padding-bottom: 0;
+		}
+
+		> a {
+			display: block;
+		}
+	}
+}
+
+.widget-latest-posts ul > li > span {
+	opacity: 0.7;
+}
+
+

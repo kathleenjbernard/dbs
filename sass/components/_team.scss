@@ -1,0 +1,14 @@
+/*------------------------------------------------------------------
+[Team]
+*/
+
+.team-item {
+	text-align: center;
+	margin: 35px 0;
+
+	.team-inner {
+		border-top: 1px solid $clr-white-dark;
+		padding: 20px 5px;
+	}
+}
+

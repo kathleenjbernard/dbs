@@ -1,0 +1,52 @@
+/*------------------------------------------------------------------
+[Pagination]
+*/
+
+.pagination {
+	display: block;
+}
+
+.pagination > li {
+	display: inline-block;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+	display: block;
+	border: 1px solid $clr-white-darken;
+	border-radius: 0;
+	padding: 8px 15px;
+	float: none;
+	color: $text-color;
+
+	&:hover,
+	&:focus {
+		background: $clr-black-light;
+		border-color: $clr-black-light;
+		color: $clr-white;
+	}
+}
+
+.pagination > .active {
+
+	> a,
+	> span {
+		background: $clr-black-light;
+		border-color: $clr-black-light;
+		color: $clr-white;
+
+		&:hover,
+		&:focus {
+			background: $clr-black-light;
+			border-color: $clr-black-light;
+			color: $clr-white;
+		}
+	}
+}
+
+.pagination > li:last-child > a,
+.pagination > li:first-child > a,
+.pagination > li:last-child > span,
+.pagination > li:first-child > span {
+	border-radius: 0;
+}

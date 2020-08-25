@@ -1,0 +1,52 @@
+body {
+	background: $body-bg;
+	font-family: $base-font-family;
+	line-height: $base-line-height;
+	font-size: $base-font-size;
+	color: $text-color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-ms-overflow-style: scrollbar;
+	overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+iframe {
+	border: 0;
+}
+
+.disable-hover {
+	pointer-events: none;
+}
+
+::-moz-selection {
+	background: $clr-brand;
+	color: #fff !important;
+}
+
+::-webkit-selection {
+	background: $clr-brand;
+	color: #fff !important;
+}
+
+::selection {
+	background: $clr-brand;
+	color: #fff !important;
+}
+
+/* Hide search icon on iPhone 5/6 portrait */
+
+@media (max-width: 375px) {
+
+	.hidden-xxs {
+		display: none;
+	}
+
+}
+
+
+

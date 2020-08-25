@@ -1,0 +1,43 @@
+/*------------------------------------------------------------------
+[Icon box]
+*/
+
+.box-icon {
+	padding: 35px 0;
+
+	.icon-box-icon {
+		font-size: 38px;
+		color: $headings-clr;
+		margin: 0 0 10px;
+	}
+
+	p:last-child {
+		margin: 0;
+	}
+}
+
+/*------------------------------------------------------------------
+[Icon Preview]
+*/
+
+.fa-hover.col-md-3.col-sm-4 {
+	border: 1px solid #f5f5f5;
+	margin: -1px 0 0 -1px;
+	padding: 0;
+	font-size: 13px;
+	padding: 10px;
+
+	> a > .fa {
+		margin-right: 5px;
+	}
+}
+
+span.box1 {
+	border: 1px solid #f5f5f5;
+	display: block;
+	width: 25%;
+	float: left;
+	padding: 10px;
+	font-size: 13px;
+	margin: -1px 0 0 -1px;
+}
