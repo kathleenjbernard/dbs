@@ -62,6 +62,11 @@ a:hover {
 abbr[title] {
   border-bottom: 1px dotted;
 }
+
+.contact-container {
+  background: black;
+}
+
 b,
 strong {
   font-weight: bold;
