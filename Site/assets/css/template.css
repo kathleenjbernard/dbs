@@ -9,6 +9,19 @@ Primary use: Restaurant template
 [General Styles]
 */
 
+.order-note {
+    color: #7D373C;
+    font-style: bold;
+}
+
+#hero-logo {
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 1rem;
+}
+
 .decorative-icon {
     height: 120px;
     width: auto;
@@ -2749,6 +2762,10 @@ span.box1 {
 [Footer]
 */
 
+.footer {
+    font-size: 95%;
+}
+
 .footer,
 .footer-bottom {
     position: relative;
@@ -2764,7 +2781,7 @@ span.box1 {
 .footer a:focus,
 .footer-bottom a:hover,
 .footer-bottom a:focus {
-    color: #c78f53;
+    color: #584b77;
 }
 
 .footer {
