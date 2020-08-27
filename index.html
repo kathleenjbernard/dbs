@@ -3,8 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta property="og:image" content="assets/images/logo-square"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content=""/>
+        <meta property="og:title" content="Death By Sugar Bakery"/>
+        <meta property="og:description" content="Goth Cakes and Confections in Seattle, WA"/>
         <title>Death By Sugar Bakery | Goth, Spooky, Alternative Cakes</title>
         <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans+Condensed:ital,wght@1,300&family=Titillium+Web:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
         <!-- Favicons-->
@@ -51,21 +54,20 @@
                     <div class="inner-navigation-inline">
                         <div class="inner-nav">
                             <ul>
-                                <li class="has-submenu"><a href="index.html">Home</a>
-                                </li>
-                                <li class="has-submenu"><a href="#about">About</a>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#about">About</a>
                                     <ul class="submenu">
                                         <li class="has-submenu"><a href="#about">What we do</a>
                                             
                                         </li>
-                                        <li><a href=#features>Meet the Owner</a></li>
+                                        <li><a href=#about-the-owner>Meet the Owner</a></li>
                                         <li><a href="#testimonials">Testimonials</a></li>
                                         
                                     </ul>
                                 </li>
                                 <li class="has-submenu"><a href="#gallery">Gallery</a>  
                                 </li>
-                                <li class="has-submenu"><a href="#menu">FAQ</a>
+                                <li class="has-submenu"><a href="#faq">FAQ</a>
                                 </li>
                                 
                                
@@ -74,7 +76,7 @@
                        
                         <div class="extra-nav text-right">
                             <ul>
-                                <li class="has-submenu submenu-left"><a href="#reservation">ORDER NOW</a>
+                                <li class="has-submenu submenu-left"><a href="#new-order-request">ORDER NOW</a>
                                     
                                 </li>
                                
@@ -98,9 +100,9 @@
                             <div class="row">
                                 <img src="assets/images/DBS-logo-circle.png" id="hero-logo">
                                 <div class="col-sm-12 text-center">
-                                    <h1 class="m-0">Seattle's source for creepy confections</h1>
+                                    <h1 class="m-0" id="hero-tagline">Seattle's source for creepy confections</h1>
                                     
-                                    <p class="lead m-b-40"></p><a href="#reservation" class="btn btn-brand smoothscroll">Order now</a>
+                                    <p class="lead m-b-40"></p><a href="#new-order-request" class="btn btn-brand smoothscroll">Order now</a>
                                 </div>
                             </div>
                         </div>
@@ -109,12 +111,12 @@
             </section>
             <!-- END HERO-->
             <!-- ABOUT-->
-            <section id="about" class="module">
+            <section class="module">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-sm-offset-3">
                             <div class="module-header text-center">
-                                <h1>Prefer things a little on the spookier side? Us too.</h1>
+                                <h1 id="about">Prefer things a little on the spookier side? Us too.</h1>
                                 
                                 <p class="divider-line">At Death By Sugar, we embrace the weird, the wacky, and the macabre. Our cakes reflect this because we believe there is beauty in darkness, and most importantly - beauty in being yourself.</p>
                             </div>
@@ -153,12 +155,12 @@
             </section>
             <!-- END ABOUT-->
             <!-- FEATURES-->
-            <section id="features" class="module pull-image p-b-60">
+            <section id="about-the-owner" class="module pull-image p-b-60">
                 <div class="col-md-6 col-sm-4 p-0"><img src="assets/images/module-10.jpg"></div>
                 <div class="container">
                     <div class="col-md-4 col-md-offset-2 col-sm-7 col-sm-offset-1 vertical-middle pull-image-right">
                         <div class="m-t-35 m-b-70">
-                            <h4>About the Owner</h4>
+                            <h4 id="about-the-owner">About the Owner</h4>
                             <p>Death By Sugar is owned and operated by Kira Bernard in her home kitchen. Kira is a Registered Nurse at a local children's hospital and operates Death By Sugar as a passion project. A self-described Hufflepuff, she began baking for coworkers as a way to increase morale and decrease the stress that comes with working in healthcare.</p>
 
                             <p>From an early age, Kira has identified with goth subculture and especially enjoys creating cakes with spooky motifs, but most of all, creating cakes that make people smile.</p>
@@ -170,8 +172,8 @@
             </section>
             <!-- END FEATURES-->
             <!-- TESTIMONIALS-->
-            <section data-background="assets/images/module-3.jpeg" class="module color-white parallax bg-black-alfa-30" id="testimonials">
-                <div class="container">
+            <section data-background="assets/images/module-3.jpeg" class="module color-white parallax bg-black-alfa-30">
+                <div class="container" id="testimonials">
                     <div class="row">
                         <div class="col-sm-10 col-sm-offset-1 text-center">
                             <div class="slider-testimonial">
@@ -206,12 +208,12 @@
             </section>
             <!-- END TESTIMONIALS-->
             <!-- GALLERY-->
-            <section id="gallery" class="module p-b-0">
+            <section class="module p-b-0">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-sm-offset-3">
                             <div class="module-header text-center">
-                                <h1>Gallery</h1>
+                                <h1 id="gallery">Gallery</h1>
                                 <p class="divider-line"></p>
                             </div>
                         </div>
@@ -319,12 +321,12 @@
             </section>
             <!-- END GALLERY-->
             <!-- MENU-->
-            <section id="menu" data-background="assets/images/module-4.jpeg" class="module parallax">
+            <section data-background="assets/images/module-4.jpeg" class="module parallax">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="module-header">
-                                <h1>Frequently Asked Questions</h1>
+                                <h1 id="faq">Frequently Asked Questions</h1>
                                 
                             </div>
                         </div>
@@ -450,12 +452,12 @@
             </section>
             <!-- END MENU-->
             <!-- RESERVATION-->
-            <section id="reservation" class="module">
+            <section class="module">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-sm-offset-3">
                             <div class="module-header text-center">
-                                <h1>New Order Request</h1>
+                                <h1 id="new-order-request">New Order Request</h1>
                                 <p class="order-note">NOTE: Death By Sugar is in the process of obtaining Washington's required business license and food distribution permit, called a Cottage Food Permit, and can not accept orders at this time.</p>
                                 <p class="divider-line">Please provide the following information as a starting point for our collaboration and allow up to 48 hours for a response. Don't worry about including all the details on this form - we'll work everything out as we go. I can't wait to work with you! </p>
                             </div>
