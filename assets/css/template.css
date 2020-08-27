@@ -1,3 +1,8 @@
+img:hover {
+    filter: opacity(60%);
+}
+
+
 .order-note {
     color: #7D373C;
     font-style: bold;
@@ -5,10 +10,15 @@
 
 #hero-logo {
     height: auto;
-    width: 500px;
+    width: 400px;
     display: block;
     margin: 0 auto 0 auto;
-    padding: 1rem;
+}
+
+@media (min-width: 990px) {
+    #hero-logo {
+        margin: 10vh auto 0 auto;
+    }
 }
 
 #hero-tagline {
